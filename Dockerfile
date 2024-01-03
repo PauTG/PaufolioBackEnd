@@ -1,4 +1,4 @@
-FROM adoptopenjdk:8-jdk-hotspot-alpine
+FROM openjdk:8
 
 
 copy target/demo-0.0.1-SNAPSHOT.jar pawli.jar
