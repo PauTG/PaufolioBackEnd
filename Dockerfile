@@ -1,7 +1,6 @@
-
 FROM amazoncorretto:8-alpine-jdk
 
-copy target/portafolio-0.0.1-SNAPSHOT.jar argentina-developer.jar
+copy target/demo-0.0.1-SNAPSHOT.jar PaufolioBackEnd.jar
 entrypoint ["java","-jar","/PaufolioBackEnd.jar"]
 
 CMD ["/bin/sh"]
